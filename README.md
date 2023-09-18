@@ -25,7 +25,8 @@ This video with MP4 format can be found at [/image/hbctool_example.mp4](/image/h
 To install hbctool, simply use pip:
 
 ```
-pip install hbctool
+build/install this or install the wheel provided:
+pip install --force-reinstall hbctool-0.1.5-96-py3-none-any.whl
 ```
 
 ## Usage
@@ -70,6 +71,21 @@ hbctool currently supports the following Hermes Bytecode version:
 - [Hermes Bytecode version 62](/hbctool/hbc/hbc62/)
 - [Hermes Bytecode version 74](/hbctool/hbc/hbc74/)
 - [Hermes Bytecode version 76](/hbctool/hbc/hbc76/)
+- [Hermes Bytecode version 83](/hbctool/hbc/hbc83/) [New]
+- [Hermes Bytecode version 84](/hbctool/hbc/hbc84/) [Fixed]
+- [Hermes Bytecode version 85](/hbctool/hbc/hbc85/) [Fixed]
+- [Hermes Bytecode version 86](/hbctool/hbc/hbc86/) [New]
+- [Hermes Bytecode version 87](/hbctool/hbc/hbc87/) [New]
+- [Hermes Bytecode version 88](/hbctool/hbc/hbc88/) [New]
+- [Hermes Bytecode version 89](/hbctool/hbc/hbc89/) [New]
+- [Hermes Bytecode version 90](/hbctool/hbc/hbc90/) [New]
+- [Hermes Bytecode version 91](/hbctool/hbc/hbc91/) [New]
+- [Hermes Bytecode version 92](/hbctool/hbc/hbc92/) [New]
+- [Hermes Bytecode version 93](/hbctool/hbc/hbc93/) [New]
+- [Hermes Bytecode version 94](/hbctool/hbc/hbc94/) [New]
+- [Hermes Bytecode version 95](/hbctool/hbc/hbc95/) [New]
+- [Hermes Bytecode version 96](/hbctool/hbc/hbc96/) [New]
+
 
 ## Contribution
 
