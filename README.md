@@ -14,7 +14,7 @@ Since the React Native team created their own JavaScript engine (named Hermes) f
 To install hbctool, simply use pip:
 
 ```
-pip install --force-reinstall hbctool-0.1.6-99-py3-none-any.whl
+pip install --force-reinstall hbctool-0.1.6-py3-none-any.whl
 ```
 
 ## Usage
