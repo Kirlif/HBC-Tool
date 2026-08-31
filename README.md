@@ -8,25 +8,13 @@ Since the React Native team created their own JavaScript engine (named Hermes) f
 
 > [Hermes](https://hermesengine.dev/) is an open-source JavaScript engine optimized for running React Native apps on Android. For many apps, enabling Hermes will result in improved start-up time, decreased memory usage, and smaller app size. At this time Hermes is an opt-in React Native feature, and this guide explains how to enable it.
 
-Special thanks to [ErbaZZ](https://github.com/ErbaZZ) and [Jusmistic](https://github.com/Jusmistic) for helping me research and develop this tool.
-
-For more information, please visit:
-
-[https://suam.wtf/posts/react-native-application-static-analysis-en/](https://suam.wtf/posts/react-native-application-static-analysis-en/)
-
-## Screenshot
-
-![hbctool Example](/image/hbctool_example.gif)
-
-This video with MP4 format can be found at [/image/hbctool_example.mp4](/image/hbctool_example.mp4).
 
 ## Installation
 
 To install hbctool, simply use pip:
 
 ```
-build/install this or install the wheel provided:
-pip install --force-reinstall hbctool-0.1.5-96-py3-none-any.whl
+pip install --force-reinstall hbctool-0.1.6-99-py3-none-any.whl
 ```
 
 ## Usage
@@ -67,46 +55,24 @@ Examples:
 
 hbctool currently supports the following Hermes Bytecode version:
 
-- [Hermes Bytecode version 59](/hbctool/hbc/hbc59/)
-- [Hermes Bytecode version 62](/hbctool/hbc/hbc62/)
-- [Hermes Bytecode version 74](/hbctool/hbc/hbc74/)
-- [Hermes Bytecode version 76](/hbctool/hbc/hbc76/)
-- [Hermes Bytecode version 83](/hbctool/hbc/hbc83/) [New]
-- [Hermes Bytecode version 84](/hbctool/hbc/hbc84/) [Fixed]
-- [Hermes Bytecode version 85](/hbctool/hbc/hbc85/) [Fixed]
-- [Hermes Bytecode version 86](/hbctool/hbc/hbc86/) [New]
-- [Hermes Bytecode version 87](/hbctool/hbc/hbc87/) [New]
-- [Hermes Bytecode version 88](/hbctool/hbc/hbc88/) [New]
-- [Hermes Bytecode version 89](/hbctool/hbc/hbc89/) [New]
-- [Hermes Bytecode version 90](/hbctool/hbc/hbc90/) [New]
-- [Hermes Bytecode version 91](/hbctool/hbc/hbc91/) [New]
-- [Hermes Bytecode version 92](/hbctool/hbc/hbc92/) [New]
-- [Hermes Bytecode version 93](/hbctool/hbc/hbc93/) [New]
-- [Hermes Bytecode version 94](/hbctool/hbc/hbc94/) [New]
-- [Hermes Bytecode version 95](/hbctool/hbc/hbc95/) [New]
-- [Hermes Bytecode version 96](/hbctool/hbc/hbc96/) [New]
-
-
-## Contribution
-
-Feel free to create an issue or submit the merge request. Anyway you want to contribute this project. I'm very happy about it.
-
-However, please run the unit test before submiting the pull request.
-
-```
-cd hbctool
-python test.py
-```
-
-I use poetry to build this tool. To build it yourself, simply execute:
-
-1. `poetry install`
-2. `poetry build`
-4. `pip install --force-reinstall dist/hbctool-<VERSION>-py3-none-any.whl`
-
-## Next Step
-
-- Add the other Hermes bytecode versions
-- Create a class abstraction
-- Support overflow patching
-- Do all TODO, NOTE, FIXME in source code
+- [Hermes Bytecode version 59]
+- [Hermes Bytecode version 62]
+- [Hermes Bytecode version 74]
+- [Hermes Bytecode version 76]
+- [Hermes Bytecode version 83]
+- [Hermes Bytecode version 84]
+- [Hermes Bytecode version 85]
+- [Hermes Bytecode version 86]
+- [Hermes Bytecode version 87]
+- [Hermes Bytecode version 88]
+- [Hermes Bytecode version 89]
+- [Hermes Bytecode version 90]
+- [Hermes Bytecode version 91]
+- [Hermes Bytecode version 92]
+- [Hermes Bytecode version 93]
+- [Hermes Bytecode version 94]
+- [Hermes Bytecode version 95]
+- [Hermes Bytecode version 96]
+- [Hermes Bytecode version 97]
+- [Hermes Bytecode version 98]
+- [Hermes Bytecode version 99]

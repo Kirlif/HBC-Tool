@@ -64,7 +64,7 @@
     "ObjValueBuffer": ["uint", 8, 0],
     "RegExpTableEntry": {
         "offset": ["uint", 32, 1],
-        "length": ["uint", 32, 1]   
+        "length": ["uint", 32, 1]
     },
     "RegExpStorage": ["uint", 8, 0],
     "CJSModuleTable": {

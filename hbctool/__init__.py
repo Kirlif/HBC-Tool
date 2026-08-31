@@ -25,7 +25,8 @@ Examples:
     hbctool asm test_hasm index.android.bundle
 """
 from docopt import docopt
-from hbctool import metadata, hbc, hasm
+from hbctool import hbc, hasm
+
 
 def disasm(hbcfile, hasmpath):
     print(f"[*] Disassemble '{hbcfile}' to '{hasmpath}' path")
@@ -38,8 +39,9 @@ def disasm(hbcfile, hasmpath):
     version = header["version"]
     print(f"[*] Hermes Bytecode [ Source Hash: {sourceHash}, HBC Version: {version} ]")
 
-    hasm.dump(hbco, hasmpath)
+    hasm.dump(hbco, hasmpath, version)
     print(f"[*] Done")
+
 
 def asm(hasmpath, hbcfile):
     print(f"[*] Assemble '{hasmpath}' to '{hbcfile}' path")
@@ -55,17 +57,19 @@ def asm(hasmpath, hbcfile):
     f.close()
     print(f"[*] Done")
 
+
 def main():
-    args = docopt(__doc__, version=f"{metadata.project} {metadata.version}")
-    if args['disasm']:
-        disasm(args['<HBC_FILE>'], args['<HASM_PATH>'])
-    elif args['asm']:
-        asm(args['<HASM_PATH>'], args['<HBC_FILE>'])
-    
+    args = docopt(__doc__, version="hbctool 0.1.6")
+    if args["disasm"]:
+        disasm(args["<HBC_FILE>"], args["<HASM_PATH>"])
+    elif args["asm"]:
+        asm(args["<HASM_PATH>"], args["<HBC_FILE>"])
+
 
 def entry_point():
     """Zero-argument entry point for use with setuptools/distribute."""
     main()
+
 
 if __name__ == "__main__":
     main()
