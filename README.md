@@ -1,4 +1,4 @@
-# hbctool 
+# hbctool
 
 [![Python 3.x](https://img.shields.io/badge/python-3.x-yellow.svg)](https://python.org) [![PyPI version](https://badge.fury.io/py/hbctool.svg)](https://badge.fury.io/py/hbctool) [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](/LICENSE)
 
@@ -14,7 +14,7 @@ Since the React Native team created their own JavaScript engine (named Hermes) f
 To install hbctool, simply use pip:
 
 ```
-pip install --force-reinstall hbctool-0.1.6-py3-none-any.whl
+pip install --force-reinstall hbctool-0.1.7-py3-none-any.whl
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ pip install --force-reinstall hbctool-0.1.6-py3-none-any.whl
 Please run `hbctool --help` to show the usage.
 
 ```
-hbctool --help   
+hbctool --help
 A command-line interface for disassembling and assembling
 the Hermes Bytecode.
 
