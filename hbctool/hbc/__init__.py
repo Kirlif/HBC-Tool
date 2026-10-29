@@ -1,4 +1,5 @@
 from hbctool.util import *
+from hbctool.hbc.hbc100 import HBC100
 from hbctool.hbc.hbc99 import HBC99
 from hbctool.hbc.hbc98 import HBC98
 from hbctool.hbc.hbc97 import HBC97
@@ -27,6 +28,7 @@ INIT_HEADER = {"magic": ["uint", 64, 1], "version": ["uint", 32, 1]}
 BYTECODE_ALIGNMENT = 4
 
 HBC = {
+    100:HBC100,
     99: HBC99,
     98: HBC98,
     97: HBC97,
