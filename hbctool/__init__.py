@@ -59,7 +59,7 @@ def asm(hasmpath, hbcfile):
 
 
 def main():
-    args = docopt(__doc__, version="hbctool 0.1.6")
+    args = docopt(__doc__, version="hbctool 0.1.7")
     if args["disasm"]:
         disasm(args["<HBC_FILE>"], args["<HASM_PATH>"])
     elif args["asm"]:
